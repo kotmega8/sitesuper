@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#timer-container, #game-container {
+    text-align: center;
+}
+
+#timer {
+    font-size: 3rem;
+}
+
+#health-bar-container {
+    width: 100%;
+    height: 30px;
+    background-color: #ccc;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#health-bar {
+    height: 100%;
+    width: 100%;
+    background: red;
+}
+
+#answer-input {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    font-size: 1.5rem;
+}
